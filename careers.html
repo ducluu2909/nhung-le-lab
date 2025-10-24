@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Our Research Team - Nhung Le's Molecular Biology Lab</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="careers-styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <a href="index.html">
+                    <svg width="180" height="30" viewBox="0 0 180 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <text x="0" y="20" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white">L'Atelier Moléculaire de Nhung Le</text>
+                    </svg>
+                </a>
+            </div>
+            <button class="menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="our-team.html">Our Team</a></li>
+                <li><a href="research.html">Research</a></li>
+                <li><a href="publications.html">Publications</a></li>
+                <li><a href="careers.html" class="active">Careers</a></li>
+                <li><a href="#news">News</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="careers-hero">
+        <div class="hero-image-bg">
+            <img src="images/careers/hero-office.jpg" alt="Lab environment">
+        </div>
+        <div class="hero-content-careers">
+            <h1 class="careers-hero-title">Join Our Research Team</h1>
+            <div class="hero-quote">
+                <blockquote>
+                    <p>"We welcome Bachelor's and Master's students to join our research in Bioinformatics, Material Biology, and Molecular Biology. We foster collaborative learning and value your passion for research, regardless of prior experience."</p>
+                    <cite>— Mrs. Nhung Le, Principal Investigator</cite>
+                </blockquote>
+            </div>
+        </div>
+    </section>
+
+    <!-- Job Openings Section -->
+    <section class="job-openings">
+        <div class="container">
+            <h2 class="section-title">Current Opportunities</h2>
+            <p class="section-description">Bachelor's and Master's students: Join our research team in Bioinformatics, Material Biology, and Molecular Biology</p>
+
+            <!-- Filters -->
+            <div class="job-filters">
+                <div class="filter-group">
+                    <label for="departmentFilter">Department</label>
+                    <select id="departmentFilter" class="filter-select">
+                        <option value="all">All Departments</option>
+                        <option value="bioinformatics">Bioinformatics</option>
+                        <option value="material-biology">Material Biology</option>
+                        <option value="molecular-biology">Molecular Biology</option>
+                    </select>
+                </div>
+
+                <div class="filter-group">
+                    <label for="positionType">Position Type</label>
+                    <select id="positionType" class="filter-select">
+                        <option value="all">All Types</option>
+                        <option value="research">Research Position</option>
+                        <option value="student">Student Position</option>
+                    </select>
+                </div>
+
+                <button class="reset-filters-btn">Reset Filters</button>
+            </div>
+
+            <div class="location-info">
+                <p><strong>Location:</strong> Hanoi, Nguyen Trai</p>
+            </div>
+
+            <!-- Job Listings -->
+            <div class="jobs-list" id="jobsList">
+                <!-- Research Positions -->
+                <article class="job-card" data-department="bioinformatics" data-position-type="research">
+                    <div class="job-tags">
+                        <span class="tag tag-department">Bioinformatics</span>
+                        <span class="tag tag-location">Hanoi, Nguyen Trai</span>
+                    </div>
+                    <h3 class="job-title">Machine Learning Researcher</h3>
+                    <p class="job-description">Develop and apply machine learning algorithms for biological data analysis, protein structure prediction, and drug discovery applications.</p>
+                    <a href="#" class="job-apply-btn">Apply →</a>
+                </article>
+
+                <article class="job-card" data-department="bioinformatics" data-position-type="research">
+                    <div class="job-tags">
+                        <span class="tag tag-department">Bioinformatics</span>
+                        <span class="tag tag-location">Hanoi, Nguyen Trai</span>
+                    </div>
+                    <h3 class="job-title">Simulation Specialist</h3>
+                    <p class="job-description">Conduct molecular dynamics simulations and develop computational models to study protein-ligand interactions and molecular systems.</p>
+                    <a href="#" class="job-apply-btn">Apply →</a>
+                </article>
+
+                <article class="job-card" data-department="molecular-biology" data-position-type="research">
+                    <div class="job-tags">
+                        <span class="tag tag-department">Molecular Biology</span>
+                        <span class="tag tag-location">Hanoi, Nguyen Trai</span>
+                    </div>
+                    <h3 class="job-title">Drug Discovery Researcher</h3>
+                    <p class="job-description">Lead drug discovery projects from target identification through preclinical development using molecular biology and biochemical techniques.</p>
+                    <a href="#" class="job-apply-btn">Apply →</a>
+                </article>
+
+                <article class="job-card" data-department="molecular-biology" data-position-type="research">
+                    <div class="job-tags">
+                        <span class="tag tag-department">Molecular Biology</span>
+                        <span class="tag tag-location">Hanoi, Nguyen Trai</span>
+                    </div>
+                    <h3 class="job-title">Molecular Biology Researcher</h3>
+                    <p class="job-description">Conduct molecular biology research including gene cloning, protein expression, purification, and functional characterization.</p>
+                    <a href="#" class="job-apply-btn">Apply →</a>
+                </article>
+
+                <article class="job-card" data-department="material-biology" data-position-type="research">
+                    <div class="job-tags">
+                        <span class="tag tag-department">Material Biology</span>
+                        <span class="tag tag-location">Hanoi, Nguyen Trai</span>
+                    </div>
+                    <h3 class="job-title">Bio-material Researcher</h3>
+                    <p class="job-description">Design and characterize bio-materials for drug delivery, tissue engineering, and biomedical applications.</p>
+                    <a href="#" class="job-apply-btn">Apply →</a>
+                </article>
+
+                <!-- Student Positions -->
+                <article class="job-card" data-department="bioinformatics" data-position-type="student">
+                    <div class="job-tags">
+                        <span class="tag tag-department">Bioinformatics</span>
+                        <span class="tag tag-location">Hanoi, Nguyen Trai</span>
+                    </div>
+                    <h3 class="job-title">Student - Machine Learning</h3>
+                    <p class="job-description">Bachelor's/Master's students: Join our research group to pursue research in applying machine learning to biological problems and drug discovery.</p>
+                    <a href="#" class="job-apply-btn">Apply →</a>
+                </article>
+
+                <article class="job-card" data-department="bioinformatics" data-position-type="student">
+                    <div class="job-tags">
+                        <span class="tag tag-department">Bioinformatics</span>
+                        <span class="tag tag-location">Hanoi, Nguyen Trai</span>
+                    </div>
+                    <h3 class="job-title">Student - Simulation</h3>
+                    <p class="job-description">Bachelor's/Master's students: Conduct research in molecular simulation and computational modeling for biological systems.</p>
+                    <a href="#" class="job-apply-btn">Apply →</a>
+                </article>
+
+                <article class="job-card" data-department="molecular-biology" data-position-type="student">
+                    <div class="job-tags">
+                        <span class="tag tag-department">Molecular Biology</span>
+                        <span class="tag tag-location">Hanoi, Nguyen Trai</span>
+                    </div>
+                    <h3 class="job-title">Student - Drug Discovery</h3>
+                    <p class="job-description">Bachelor's/Master's students: Pursue research in drug discovery with focus on target identification, screening, and therapeutic development.</p>
+                    <a href="#" class="job-apply-btn">Apply →</a>
+                </article>
+
+                <article class="job-card" data-department="molecular-biology" data-position-type="student">
+                    <div class="job-tags">
+                        <span class="tag tag-department">Molecular Biology</span>
+                        <span class="tag tag-location">Hanoi, Nguyen Trai</span>
+                    </div>
+                    <h3 class="job-title">Student - Molecular Biology</h3>
+                    <p class="job-description">Bachelor's/Master's students: Conduct research in molecular biology with focus on gene regulation, protein function, and molecular mechanisms.</p>
+                    <a href="#" class="job-apply-btn">Apply →</a>
+                </article>
+
+                <article class="job-card" data-department="material-biology" data-position-type="student">
+                    <div class="job-tags">
+                        <span class="tag tag-department">Material Biology</span>
+                        <span class="tag tag-location">Hanoi, Nguyen Trai</span>
+                    </div>
+                    <h3 class="job-title">Student - Bio-materials</h3>
+                    <p class="job-description">Bachelor's/Master's students: Pursue research in bio-material design, synthesis, and characterization for biomedical applications.</p>
+                    <a href="#" class="job-apply-btn">Apply →</a>
+                </article>
+            </div>
+
+            <div class="no-results" id="noResults" style="display: none;">
+                <p>No positions found matching your criteria. Try adjusting your filters or check back soon for new opportunities.</p>
+            </div>
+
+            <div class="general-application">
+                <h3>Don't see the right position?</h3>
+                <p>We're always interested in hearing from talented Bachelor's and Master's students. Submit a general application and we'll keep you in mind for future opportunities.</p>
+                <a href="#" class="btn-primary">Submit General Application</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Recruitment Process -->
+    <section class="recruitment-process">
+        <div class="container">
+            <h2 class="section-title">Application Process</h2>
+            <p class="section-description">A transparent and supportive approach to joining our research team</p>
+
+            <div class="process-steps">
+                <!-- Step 1 -->
+                <div class="process-step">
+                    <div class="step-number">01</div>
+                    <div class="step-content">
+                        <h3>Application Review</h3>
+                        <p>Submit your CV and publications (if you have any). Every application is carefully reviewed by our research team members.</p>
+                    </div>
+                </div>
+
+                <!-- Step 2 -->
+                <div class="process-step">
+                    <div class="step-number">02</div>
+                    <div class="step-content">
+                        <h3>Initial Interview</h3>
+                        <p>We begin with an interview to understand your background, research interests, and how you align with our lab's research directions.</p>
+                    </div>
+                </div>
+
+                <!-- Step 3 -->
+                <div class="process-step">
+                    <div class="step-number">03</div>
+                    <div class="step-content">
+                        <h3>Research Discussion</h3>
+                        <p>Present your previous research or discuss potential projects. This helps us understand your technical expertise and research approach.</p>
+                    </div>
+                </div>
+
+                <!-- Step 4 -->
+                <div class="process-step">
+                    <div class="step-number">04</div>
+                    <div class="step-content">
+                        <h3>Lab Visit & Team Meeting</h3>
+                        <p>Meet with lab members, tour our facilities, and get a feel for our research environment and collaborative culture.</p>
+                    </div>
+                </div>
+
+                <!-- Step 5 -->
+                <div class="process-step">
+                    <div class="step-number">05</div>
+                    <div class="step-content">
+                        <h3>Decision & Onboarding</h3>
+                        <p>If there's mutual fit, we'll make an offer and help you transition smoothly into our research team.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="process-note">
+                <p><strong>Note:</strong> We provide feedback within 1-2 weeks. We welcome Bachelor's and Master's students with or without research experience.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Culture Testimonial -->
+    <section class="culture-testimonial">
+        <div class="container">
+            <div class="testimonial-content">
+                <div class="testimonial-image">
+                    <img src="images/publications/5-hero.png" alt="Team collaboration">
+                </div>
+                <div class="testimonial-text">
+                    <blockquote>
+                        <p>"There is no rejection in education"</p>
+                        <cite>— Dr.Nhung Le</cite>
+                    </blockquote>
+                    <a href="#" class="link-with-arrow">Learn more about Life at Lab →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Sections -->
+    <section class="faq-section">
+        <div class="container">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+
+            <!-- Working at Lab -->
+            <div class="faq-category">
+                <h3 class="faq-category-title">Joining the Lab</h3>
+
+                <div class="faq-accordion">
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>What departments do you have?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>We have three departments: Bioinformatics, Material Biology, and Molecular Biology.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>Who can apply to the lab?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>We accept Bachelor and Master students only. Currently, we are not accepting PhD students or postdoctoral researchers.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>What areas of research can students work on?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Please see our Avenues of Research section for detailed information about research areas in each department.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>Do you accept international students?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Currently, we only accept domestic students.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Recruitment Process FAQ -->
+            <div class="faq-category">
+                <h3 class="faq-category-title">Application Process</h3>
+
+                <div class="faq-accordion">
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>What should I include in my application?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Please submit your CV and publications (if you have any). Publications are optional but welcomed.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>Can I apply to multiple departments?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Yes! You can apply to multiple departments if your interests span across different research areas.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>How long does it take to receive feedback?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>We will provide feedback within 1-2 weeks after you submit your application.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>Do I need research experience to apply?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>No, research experience is not required. We welcome students who are eager to learn and passionate about research.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>When is the best time to apply?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>The best time to apply is now! We are actively recruiting students.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="careers-cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Start Your Research Journey?</h2>
+                <p>Bachelor's and Master's students: The best time to apply is now! Join our research team in Bioinformatics, Material Biology, and Molecular Biology</p>
+                <div class="cta-buttons">
+                    <a href="#jobsList" class="btn-primary">View Open Positions</a>
+                    <a href="#" class="btn-secondary">Submit General Application</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <ul>
+                        <li><a href="mailto:careers@nhunglelab.com">careers@nhunglelab.com</a></li>
+                        <li><a href="mailto:recruiting@nhunglelab.com">recruiting@nhunglelab.com</a></li>
+                        <li><a href="#">Privacy Notice</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li><a href="#">LinkedIn</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Glassdoor</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Learn More</h3>
+                    <ul>
+                        <li><a href="our-team.html">Our Team</a></li>
+                        <li><a href="research.html">Our Research</a></li>
+                        <li><a href="#">Life at Lab</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Nhung Le's Molecular Biology Lab. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="careers-script.js"></script>
+</body>
+</html>
