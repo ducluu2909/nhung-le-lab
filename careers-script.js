@@ -166,7 +166,7 @@ document.addEventListener('DOMContentLoaded', function() {
     generalAppButtons.forEach(button => {
         button.addEventListener('click', function(e) {
             e.preventDefault();
-            alert('General Application Form\n\nThis would typically open a form where candidates can:\n- Upload their resume/CV\n- Add a cover letter\n- Indicate areas of interest\n- Provide contact information\n\nWe keep all general applications on file for future opportunities.');
+            alert('General Application Form\n\nTo apply, please send us:\n- Your CV\n- Information about your research interests\n- Details of your past projects\n\nWe carefully review all applications and keep them on file for future opportunities. Contact us at nhungle@hus.edu.vn with these materials.');
         });
     });
 

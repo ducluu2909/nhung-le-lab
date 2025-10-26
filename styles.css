@@ -692,3 +692,122 @@ body {
     opacity: 1;
     transform: translateY(0);
 }
+
+/* Gallery Page Specific Styles */
+.gallery-hero {
+    position: relative;
+}
+
+.gallery-hero .hero-background img {
+    filter: brightness(0.4);
+}
+
+.gallery-hero .scroll-indicator {
+    position: absolute;
+    bottom: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.gallery-hero .scroll-indicator:hover {
+    transform: translateX(-50%) translateY(-5px);
+}
+
+.scroll-text {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin: 0;
+}
+
+.gallery-section {
+    background: var(--primary-bg);
+    padding: 6rem 0;
+    min-height: 100vh;
+}
+
+.gallery-intro {
+    text-align: center;
+    margin-bottom: 4rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gallery-intro h2 {
+    font-size: clamp(2.5rem, 5vw, 3.5rem);
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    background: linear-gradient(135deg, #ffffff 0%, #b0b0b0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.gallery-intro p {
+    font-size: 1.2rem;
+    color: var(--text-secondary);
+    line-height: 1.6;
+}
+
+.flipbook-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+    padding: 2rem 0;
+}
+
+/* Override flipbook styles for integration */
+.flipbook-container .flipbook {
+    width: 900px;
+    height: 550px;
+    max-width: 90vw;
+    max-height: 60vh;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.6);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Responsive adjustments for gallery */
+@media (max-width: 768px) {
+    .gallery-section {
+        padding: 4rem 0;
+    }
+
+    .gallery-intro h2 {
+        font-size: 2rem;
+    }
+
+    .gallery-intro p {
+        font-size: 1rem;
+    }
+
+    .flipbook-container .flipbook {
+        width: 95vw;
+        height: 60vw;
+        max-height: 400px;
+    }
+
+    .scroll-text {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .flipbook-container .flipbook {
+        width: 95vw;
+        height: 65vw;
+        max-height: 350px;
+    }
+
+    .gallery-intro {
+        margin-bottom: 2rem;
+    }
+}

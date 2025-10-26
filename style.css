@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+}
+.turn-js-book-container {
+    /* A subtle gray border that's just light enough to see */
+    border: 1px solid #444444; 
+    
+    /* Or, for a slightly brighter edge: */
+    /* border: 1px solid rgba(255, 255, 255, 0.2); */
+  }
+/* Body styles overridden by gallery page main styles.css
+   This file now focuses on flipbook-specific styles */
+
+.flipbook {
+    width: 1000px;
+    height: 600px;
+    position: relative;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+}
+
+.flipbook .hard {
+    background: #c0392b !important;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    /* Make cover slightly bigger and weighted */
+    transform: scale(1.3);
+    z-index: 20;
+    position: relative;
+    /* These properties will center your content */
+    display: flex;
+    align-items: center;     /* Centers horizontally */
+    text-align: center;      /* Aligns the text */
+    text-align: center;      /* Aligns the text */
+    height: 100%;            /* Must have height to center vertically */
+    /* Add weighted feel with enhanced shadows and thickness */
+    box-shadow:
+        0 0 0 2px #8b2e1f,
+        0 4px 12px rgba(0, 0, 0, 0.4),
+        inset 0 2px 0 rgba(255, 255, 255, 0.15),
+        inset 0 -2px 0 rgba(0, 0, 0, 0.3);
+    /* Add subtle texture for weight */
+    background: linear-gradient(
+        135deg,
+        #c0392b 0%,
+        #a93226 30%,
+        #8b2e1f  70%,
+        #7a2518 100%
+    ) !important;
+}
+
+.flipbook .hard small{
+	font-style: italic;
+	font-weight: lighter;
+	opacity: 0.9;
+	font-size: 14px;
+	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+/* Add thickness effect to hard covers */
+.flipbook .hard::after {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    right: -2px;
+    bottom: -2px;
+    background: linear-gradient(
+        45deg,
+        rgba(0, 0, 0, 0.2) 0%,
+        transparent 50%
+    );
+    z-index: -1;
+    border-radius: 1px;
+}
+
+.flipbook .page {
+    background: #2B303A;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+    gap: 0px;
+    border: 0px solid rgba(0, 0, 0, 0.959);
+    /* Slightly smaller than covers to create layered effect */
+    transform: scale(0.99);
+    margin: 1px;
+}
+
+.page img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	margin: auto;
+}
+
+.flipbook .page small{
+	font-size: 14px;
+    margin-bottom: 10px;
+}
+
+/* Turn.js Optimized Page Styling */
+.flipbook .page {
+    /* Hardware acceleration fixes */
+    transform: translateZ(0);
+    backface-visibility: hidden;
+}
+
+
+
+.content-wrapper {
+    width: 60%;
+    height: 80%;
+    display: block;
+}
+
+.content-title {
+    font-size: 22px;
+    font-weight: bold;
+    color: #E1A04A;
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+.content-quote {
+    font-size: 15px;
+    font-style: italic;
+    color: #A0AEC0;
+    margin-bottom: 4px;
+    text-align: center;
+}
+
+.content-author {
+    font-size: 11px;
+    color: #95a5a6;
+    margin-bottom: 18px;
+    text-align: center;
+}
+
+.content-text {
+    font-size: 13px;
+    line-height: 1.4;
+    color: #EAEAEA;
+    margin-bottom: 15px;
+}
+
+.page-number {
+    font-size: 10px;
+    color: #7f8c8d;
+    text-align: right;
+    margin-top: 10px;
+}
+
+/* Book Spine Shadow Effect */
+.flipbook::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 4px;
+    height: 100%;
+    background: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.3) 0%,
+        rgba(0, 0, 0, 0.1) 50%,
+        rgba(0, 0, 0, 0.3) 100%
+    );
+    transform: translateX(-50%);
+    z-index: 10;
+    pointer-events: none;
+}
+
+/* Add inner shadow to pages for more depth */
+.flipbook .page::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(
+        to left,
+        rgba(0, 0, 0, 0.4) 0%,
+        rgba(0, 0, 0, 0.25) 20%,
+        rgba(0, 0, 0, 0.1) 35%,
+        transparent 60%
+    );
+    pointer-events: none;
+    z-index: 1;
+}
+
+/* Ensure content appears above the shadow overlay */
+.content-wrapper,
+.page img {
+    position: relative;
+    z-index: 2;
+}
+

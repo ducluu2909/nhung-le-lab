@@ -274,8 +274,17 @@ document.addEventListener('DOMContentLoaded', function() {
     const ctaButtons = document.querySelectorAll('.cta-buttons a');
     ctaButtons.forEach(button => {
         button.addEventListener('click', function(e) {
-            e.preventDefault();
             const buttonText = this.textContent.trim();
+            const href = this.getAttribute('href');
+
+            // Allow navigation for "View Open Positions" to careers.html
+            if (buttonText.includes('View Open Positions') && href === 'careers.html') {
+                // Allow default navigation behavior - don't prevent default
+                return;
+            }
+
+            // Prevent default for other buttons and show alert
+            e.preventDefault();
             alert(`Navigating to: ${buttonText}\n\nThis would typically:\n- Open positions page\n- Show collaboration form\n- Display contact information`);
         });
     });

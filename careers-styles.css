@@ -685,3 +685,24 @@
 .process-step:nth-child(3) { animation-delay: 0.3s; }
 .process-step:nth-child(4) { animation-delay: 0.4s; }
 .process-step:nth-child(5) { animation-delay: 0.5s; }
+
+/* General Application Button Styling */
+.general-application .btn-primary {
+    background: white;
+    color: var(--accent-color);
+    padding: 1.2rem 3rem;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+}
+
+.general-application .btn-primary:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+    background: white;
+    color: var(--accent-color);
+}
