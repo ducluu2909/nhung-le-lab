@@ -1,0 +1,152 @@
+1.
+Hong-Nhung Le Thi, Ngoc-Tram Le, Thu-Hoai Bui Thi, Hong-Loan Nguyen Thi, Thanh-Thuy Nguyen, Yen Nguyen Thi, Minh-Ngoc Ha, Dinh-Thang Nguyen,
+Novel melanin-derived stationary phase for immobilized metal ion affinity chromatography in recombinant His-tagged protein purification,
+Protein Expression and Purification,
+Volume 217,
+2024,
+106444,
+ISSN 1046-5928,
+https://doi.org/10.1016/j.pep.2024.106444.
+(https://www.sciencedirect.com/science/article/pii/S1046592824000160)
+Abstract: The matrix of the stationary phase is a crucial element in affinity chromatography for protein purification. Various materials, including polymer or magnetic materials, have been employed as the matrix in the purification of His-tagged protein. Here, for the first time, we utilized a combination of melanin and alginate, both natural polymer materials, to synthesize Ni-melanin/alginate (Ni-M/A) beads for His-tagged protein purification. We investigated the binding of His-tagged Mpro on the Ni-M/A beads, referred to as Ni-M/A-Mpro, and assessed the elution efficiency of Mpro from the beads. Our examination involved FTIR, EDS, XRD, SDS-PAGE, and Western blotting methods. FTIR spectra revealed notable changes in the stretching patterns and intensities of hydroxyl, amine, carbonyl, imine and amide chemical groups, when Mpro protein was present in the Ni-M/A sample. XRD spectra demonstrated the occurrence of two Nickel peaks at 35–40 deg and 40–45 deg in Ni-M/A, but only one nickel peak at 35–40 deg in Ni-M/A-Mpro, indicating the binding of Mpro on the Nickel ions. EDS analysis reported a decrease in the concentration of Nickel on the surface of Ni-M/A from 16% to 7% when Mpro protein was loaded into the stationary phase. Importantly, our data indicated that the purity of the His-tagged protein Mpro after purification reached 97% after just one-step purification using the Ni-M/A stationary phase. Moreover, the binding capacity of Ni-M/A for Mpro was approximately 5.2 mg/g with recovery efficiency of 40%. Our results suggested Ni-M/A as a highly potential solid phase for affinity chromatography in the purification of His-tagged protein.
+Keywords: His-tagged protein; Ni-melanin/alginate; Stationary phase; Affinity chromatography; Recombinant protein; Protein purification
+
+2.
+PMID- 41084210
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20251014
+LR  - 20251022
+IS  - 1738-8872 (Electronic)
+IS  - 1017-7825 (Print)
+IS  - 1017-7825 (Linking)
+VI  - 35
+DP  - 2025 Oct 13
+TI  - Nanobody-Functionalized Magnetic Beads for Enrichment of Foodborne Botulinum 
+      Toxin Type A Light Chain.
+PG  - e2507042
+LID - 10.4014/jmb.2507.07042 [doi]
+LID - e2507042
+AB  - In this study, for the first time, nanobody conjugated beads were developed to 
+      enrich botulinum serotype A. We evaluated two types of nanobody A8-functionalized 
+      magnetic beads, both of which effectively captured and enriched BoNT/A from 
+      dilute solutions and complex protein mixtures, achieving a concentration increase 
+      of approximately 12- to 30-fold. The A8@N-beads showed higher binding capacity 
+      than the A8@S-beads, suggesting that our self-synthesized NH(2) beads work well 
+      in this application. Our data serve as evidence that using different bead types 
+      with nanobody conjugation is a promising enrichment approach for further 
+      detection of Lc/A, particularly in applications involving low-abundance targets 
+      or complex sample matrices, such as food safety screening or clinical 
+      diagnostics.
+FAU - Luong, Hieu Trung
+AU  - Luong HT
+AD  - Faculty of Biology, VNU University of Science, Hanoi, Vietnam, 334 Nguyen Trai, 
+      Thanh Xuan, Ha Noi 10000, Vietnam.
+FAU - Kieu, My Bao
+AU  - Kieu MB
+AD  - Faculty of Biology, VNU University of Science, Hanoi, Vietnam, 334 Nguyen Trai, 
+      Thanh Xuan, Ha Noi 10000, Vietnam.
+FAU - Phi, Huong Thi
+AU  - Phi HT
+AD  - The Faculty of Physics, VNU University of Science, Hanoi, Vietnam, 334 Nguyen 
+      Trai, Thanh Xuan, Ha Noi 10000, Vietnam.
+FAU - Nguyen, Nam Hoang
+AU  - Nguyen NH
+AD  - The Faculty of Physics, VNU University of Science, Hanoi, Vietnam, 334 Nguyen 
+      Trai, Thanh Xuan, Ha Noi 10000, Vietnam.
+FAU - Luu, Quynh Manh
+AU  - Luu QM
+AD  - The Faculty of Physics, VNU University of Science, Hanoi, Vietnam, 334 Nguyen 
+      Trai, Thanh Xuan, Ha Noi 10000, Vietnam.
+FAU - Vu, Cham Thi
+AU  - Vu CT
+AD  - The Faculty of Physics, VNU University of Science, Hanoi, Vietnam, 334 Nguyen 
+      Trai, Thanh Xuan, Ha Noi 10000, Vietnam.
+FAU - Pham, Dat Thanh
+AU  - Pham DT
+AD  - Faculty of Biology, VNU University of Science, Hanoi, Vietnam, 334 Nguyen Trai, 
+      Thanh Xuan, Ha Noi 10000, Vietnam.
+FAU - Pham, Yen Bao
+AU  - Pham YB
+AD  - Faculty of Biology, VNU University of Science, Hanoi, Vietnam, 334 Nguyen Trai, 
+      Thanh Xuan, Ha Noi 10000, Vietnam.
+AD  - Key Laboratory of Enzyme and Protein Technology, VNU University of Science, 
+      Hanoi, Vietnam, 334 Nguyen Trai, Thanh Xuan, Ha Noi 10000, Vietnam.
+FAU - Nguyen, Loan Thi Hong
+AU  - Nguyen LTH
+AD  - Faculty of Biology, VNU University of Science, Hanoi, Vietnam, 334 Nguyen Trai, 
+      Thanh Xuan, Ha Noi 10000, Vietnam.
+AD  - Key Laboratory of Enzyme and Protein Technology, VNU University of Science, 
+      Hanoi, Vietnam, 334 Nguyen Trai, Thanh Xuan, Ha Noi 10000, Vietnam.
+FAU - Nguyen, Trung Thanh
+AU  - Nguyen TT
+AD  - National Institute for Food Control, 65 Pham Than Duat, Mai Dich, Cau Giay, Ha 
+      Noi 100000, Vietnam.
+FAU - Nguyen, Nguyet Thi Anh
+AU  - Nguyen NTA
+AD  - Research Institute of Stem Cell and Gene Technology, College of Health Sciences, 
+      VinUniversity, Vinhomes Ocean Park, Gia Lam, Ha Noi 1310, Vietnam.
+FAU - Trinh, Toan Van
+AU  - Trinh TV
+AD  - Institute of Tropical Medicine, Joint Vietnam-Russia Tropical Science and 
+      Technology Research Center, Ha Noi 10000, Vietnam.
+FAU - Tran, Thuy-Anh Thi
+AU  - Tran TT
+AD  - Faculty of Biology, VNU University of Science, Hanoi, Vietnam, 334 Nguyen Trai, 
+      Thanh Xuan, Ha Noi 10000, Vietnam.
+FAU - Le, Nhung Thi Hong
+AU  - Le NTH
+AD  - Faculty of Biology, VNU University of Science, Hanoi, Vietnam, 334 Nguyen Trai, 
+      Thanh Xuan, Ha Noi 10000, Vietnam.
+AD  - Key Laboratory of Enzyme and Protein Technology, VNU University of Science, 
+      Hanoi, Vietnam, 334 Nguyen Trai, Thanh Xuan, Ha Noi 10000, Vietnam.
+LA  - eng
+PT  - Journal Article
+DEP - 20251013
+PL  - Korea (South)
+TA  - J Microbiol Biotechnol
+JT  - Journal of microbiology and biotechnology
+JID - 9431852
+RN  - EC 3.4.24.69 (Botulinum Toxins, Type A)
+RN  - 0 (Single-Domain Antibodies)
+SB  - IM
+MH  - *Botulinum Toxins, Type A/isolation & purification/analysis
+MH  - *Single-Domain Antibodies/chemistry/immunology
+MH  - *Food Microbiology/methods
+MH  - Microspheres
+MH  - Clostridium botulinum
+MH  - *Immunomagnetic Separation/methods
+PMC - PMC12536258
+OTO - NOTNLM
+OT  - Nanobody
+OT  - botulinum serotype A
+OT  - botulinum toxin
+OT  - enrichment
+OT  - light chain
+OT  - magnetic beads
+COIS- Conflict of Interest The authors have no financial conflicts of interest to 
+      declare.
+EDAT- 2025/10/14 06:28
+MHDA- 2025/10/14 06:29
+PMCR- 2025/10/13
+CRDT- 2025/10/14 01:03
+PHST- 2025/07/23 00:00 [received]
+PHST- 2025/08/25 00:00 [revised]
+PHST- 2025/09/02 00:00 [accepted]
+PHST- 2025/10/14 06:29 [medline]
+PHST- 2025/10/14 06:28 [pubmed]
+PHST- 2025/10/14 01:03 [entrez]
+PHST- 2025/10/13 00:00 [pmc-release]
+AID - jmb.2507.07042 [pii]
+AID - jmb-35-e2507042 [pii]
+AID - 10.4014/jmb.2507.07042 [doi]
+PST - epublish
+SO  - J Microbiol Biotechnol. 2025 Oct 13;35:e2507042. doi: 10.4014/jmb.2507.07042.
+
+
+3.
+Luong Trung Hieu, Bui Thi Thu Hoai, Phan Thi Thanh Thuy, Nguyen Le Duc Hai, Nguyen Thi Anh Nguyet, Pham Bao Yen, Nguyen Thi Hong Loan, Phan Tuan Nghia, Nguyen Thanh Trung, Le Phuong Linh, Trinh Van Toan, Le Thi Hong Nhung. "Recombinant synthesis and immunological characterization of single-domain antibodies against botulinum neurotoxin serotype A and B". Vietnam Journal of Food Control. vol. 8, no. 1, pp. 14-21, 2025
+
+
+Abstract
+Nanobodies which are single-domain antibodies derived from the Variable Heavy domain of Heavy-chain-only antibodies (VHHs) found in camels and sharks, represent a novel approach for enhancing the detection and neutralization of food toxins. Botulinum neurotoxin (BoNT), a potent neurotoxin produced by Clostridium botulinum, can cause severe poisoning even in minimal amounts (approximately 1 - 2 ng/kg), necessitating the development of highly sensitive detection methods. In this study, we recombinantly synthesized the nanobodies ALc-B8 (A8) and JNE-B10 (J10), which specifically bind to the light chains of BoNT type A (BoNT/A) and BoNT type B (BoNT/B), respectively. Optimal conditions for expressing nanobodies A8 (33 kDa) and J10 (32 kDa) were identified using the pET28a vector in Escherichia coli  BL21 (DE3) RIL bacteria, with induction by 0.5 mM IPTG at an OD600 of approximately 0.6 - 0.8 for 16 - 18 hours at 16℃. The purified nanobodies A8 and J10, yielding 10 - 20 mg/L of culture, were able to specifically recognize the recombinant BoNT/A and BoNT/B light chains at a concentration of 100 μg/mL in Western blotting. These findings provide a foundation for the application of these nanobodies in the detection and neutralization of botulinum toxins.
